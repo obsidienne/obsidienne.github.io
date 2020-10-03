@@ -1,0 +1,75 @@
+baseURL = "https://obsidienne.github.io/"
+title = "Claudio Bernardes"
+languageCode = "fr"
+enableInlineShortcodes = true
+
+summarylength = 10
+enableEmoji = true
+
+theme = "soho"
+disableKinds = ['taxonomy', 'taxonomyTerm']
+
+
+
+[params]
+author = "Claudio Bernardes"
+description = "Project Manager and open source enthusiast"
+
+## Set one of:
+# gravatar = "soho@example.com"
+profilePicture = "images/profile.jpg"
+
+copyright = "Claudio Bernardes"
+license = "CC BY-SA 4.0"
+licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+
+## Set custom theme color.
+# themeColor = "#fc2803"
+
+customCss = ["css/blog.css"]
+customJs = ["js/blog.js"]
+
+## Set as many as you want.
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/claudio-bernardes-164a6455"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/obsidienne"
+
+
+[[params.socialIcons]]
+icon = "fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/bernar_claudio"
+
+
+[menu]
+
+    [[menu.main]]
+    name = "Resume"
+    weight = 100
+    identifier = "resume"
+    url = "https://obsidienne.github.io/resume/"
+
+    [[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+
+[markup]
+
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = true # if false, you need to provide you own custom CSS
+  style = "monokai"
+  tabWidth = 4
