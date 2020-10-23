@@ -61,6 +61,12 @@ url = "https://twitter.com/bernar_claudio"
     identifier = "posts"
     url = "/posts/"
 
+    [[menu.main]]
+    name = "Links"
+    identifier = "links"
+    weight = 1000
+    url = "/links/"
+
 [markup]
 
   [markup.highlight]
