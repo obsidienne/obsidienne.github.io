@@ -73,6 +73,10 @@
 - https://github.com/mathieuprog/polymorphic_embed
 - https://hexdocs.pm/mnemonic_slugs/MnemonicSlugs.html
 - https://github.com/Jcambass/toxiproxy_ex
+- https://blog.softwarecurmudgeon.com/oban-plugins
+- https://subvisual.com/blog/posts/dictator-1-0-a-new-perspective/
+- https://binarynoggin.com/membrane-phoenix-nerves/
+- https://medium.com/@streamerd/creating-a-global-database-of-musicians-on-postgresql-using-discogs-xml-data-and-elixir-ae6c53a7596d
 
 
 
