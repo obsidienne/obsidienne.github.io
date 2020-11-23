@@ -1,6 +1,7 @@
 ---
 title: "Création d'un CV via HUGO"
 date: 2020-10-07T00:00:00+01:00
+slug: "resume-github-hugo"
 ---  
 
 

@@ -10,10 +10,61 @@ theme = "soho"
 disableKinds = ['taxonomy', 'taxonomyTerm']
 
 
+defaultContentLanguage = "fr"
+
+
+### Français ###
+
+[languages.fr]
+  languageName = "Français"
+  languageCode = "fr"
+  weight = 1
+[languages.fr.params]
+  description = "Chef de Projet et Passionné d'Open Source"
+[[languages.fr.menu.main]]
+  name = "CV"
+  weight = 100
+  identifier = "resume"
+  url = "https://obsidienne.github.io/resume/"
+[[languages.fr.menu.main]]
+  name = "Articles"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+[[languages.fr.menu.main]]
+  name = "Liens"
+  identifier = "links"
+  weight = 300
+  url = "/links/" 
+
+### English ###
+
+[languages.en]
+  languageName = "English"
+  languageCode = "en"
+  weight = 2
+[languages.en.params]
+  description = "Project Manager and open source enthusiast"
+[[languages.en.menu.main]]
+  name = "Resume"
+  weight = 100
+  identifier = "resume"
+  url = "https://obsidienne.github.io/resume/"
+[[languages.en.menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+[[languages.en.menu.main]]
+  name = "Links"
+  identifier = "links"
+  weight = 300
+  url = "/links/"
+
 
 [params]
 author = "Claudio Bernardes"
-description = "Project Manager and open source enthusiast"
+
 
 ## Set one of:
 # gravatar = "soho@example.com"
@@ -46,29 +97,7 @@ icon = "fa-twitter"
 title = "Twitter"
 url = "https://twitter.com/bernar_claudio"
 
-
-[menu]
-
-    [[menu.main]]
-    name = "Resume"
-    weight = 100
-    identifier = "resume"
-    url = "https://obsidienne.github.io/resume/"
-
-    [[menu.main]]
-    name = "Posts"
-    weight = 100
-    identifier = "posts"
-    url = "/posts/"
-
-    [[menu.main]]
-    name = "Links"
-    identifier = "links"
-    weight = 1000
-    url = "/links/"
-
 [markup]
-
   [markup.highlight]
   codeFences = true
   guessSyntax = false
