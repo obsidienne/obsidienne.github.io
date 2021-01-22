@@ -25,6 +25,12 @@
 - https://zachporter.dev/posts/lets-code-contact-form-in-phoenix-part-one/
 - https://thoughtbot.com/blog/instrumenting-your-phoenix-application-using-telemetry
 - https://underjord.io/elixir-supervision-trees-an-example.html
+- https://akoutmos.com/post/mjml-template-compliation/
+- https://denvaar.github.io/articles/board_game.html
+- https://www.phoenixframework.org/blog/improving-testing-and-continuous-integration-in-phoenix
+- https://iacobson.medium.com/phx-gen-auth-and-oauth-for-a-phoenix-liveview-app-a19a27e6befa
+
+
 
 # Ecto
 - https://pedroassumpcao.ghost.io/the-changeset-api-pattern/
@@ -40,6 +46,8 @@
 - https://www.poeticoding.com/understanding-liveview-build-a-gallery-app/
 - https://elixirschool.com/blog/live-view-with-presence/
 - https://morphic.pro/posts/how-to-use-bamboo-with-custom-layouts-in-phoenix
+- https://alex-min.fr/phoenix-live-view-very-large-list-hook/
+
 
 
 # Other
