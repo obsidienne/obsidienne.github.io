@@ -55,6 +55,8 @@
 
 
 # Other
+
+
 - how to manage HTML DOM with vanilla JavaScript only?  https://htmldom.dev
 - CSS Findings From The New Facebook Design https://ishadeed.com/article/new-facebook-css/
 - https://blog.appsignal.com/2020/01/29/how-to-get-your-elixir-application-ready-for-ci-cd.html
