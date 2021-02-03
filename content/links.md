@@ -36,6 +36,8 @@
 - https://pedroassumpcao.ghost.io/the-changeset-api-pattern/
 - using Ecto without a Database : shttps://www.youtube.com/watch?v=ZDaHHh5QJfI&feature=youtu.be
 - https://mattpruitt.com/articles/phoenix-forms-with-ecto-embedded-schema
+- https://dennisbeatty.com/use-the-new-enum-type-in-ecto-3-5.html
+
 
 
 # live view
@@ -47,6 +49,8 @@
 - https://elixirschool.com/blog/live-view-with-presence/
 - https://morphic.pro/posts/how-to-use-bamboo-with-custom-layouts-in-phoenix
 - https://alex-min.fr/phoenix-live-view-very-large-list-hook/
+- https://darnahsan.medium.com/smart-dashboard-with-elixir-phoenix-liveview-3bfbe8ad99b8
+
 
 
 
@@ -62,6 +66,8 @@
 - https://medium.com/swlh/are-you-using-svg-favicons-yet-a-guide-for-modern-browsers-836a6aace3df
 - https://mertjf.github.io/tailblocks/
 - https://tailwindui.com/documentation
+- https://ishadeed.com/article/building-real-life-components/
+
 
 # CI/CD
 - https://www.mitchellhanberg.com/ci-cd-with-phoenix-github-actions-and-gigalixir/
@@ -85,6 +91,7 @@
 - https://subvisual.com/blog/posts/dictator-1-0-a-new-perspective/
 - https://binarynoggin.com/membrane-phoenix-nerves/
 - https://medium.com/@streamerd/creating-a-global-database-of-musicians-on-postgresql-using-discogs-xml-data-and-elixir-ae6c53a7596d
+- https://github.com/jonklein/niex
 
 
 
@@ -100,3 +107,4 @@
 - https://joshwcomeau.com/accessibility/hands-free-coding/
 - https://mkaszubowski.com/2020/09/17/modular-software-design-mistakes.html
 - https://dev.to/noelworden/a-few-caveats-to-running-elixir-tests-in-containers-and-ci-21ef
+- https://public-apis.io
