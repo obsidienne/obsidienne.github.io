@@ -100,8 +100,3 @@ url = "mailto:bernardes.claudio@gmail.com"
   identifier = "about"
   url = "/about/"
 
-  [[menu.main]]
-  name = "CV"
-  weight = 400
-  identifier = "resume"
-  url = "https://resume.bernardes.eu"
