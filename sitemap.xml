@@ -3,17 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://obsidienne.github.io/tags/cd/</loc>
-    <lastmod>2020-10-07T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://obsidienne.github.io/post/resume-github-hugo/</loc>
     <lastmod>2020-10-07T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://obsidienne.github.io/tags/github/</loc>
+    <loc>https://obsidienne.github.io/tags/github-actions/</loc>
     <lastmod>2020-10-07T00:00:00+01:00</lastmod>
   </url>
   
