@@ -9,12 +9,12 @@ J'ai une vaste expérience dans la gestion de projets informatiques et stratégi
 
 [CV en ligne](https://resume.bernardes.eu)
 
-## Compétences métiers
+## Certifications
 
 - [CAPM](https://www.youracclaim.com/badges/202a1ca0-9263-4d86-89c6-a54da5b3802e/public_url)
 - [IT-SM](https://app.exeed.pro/holder/badge/73954)
 - [PSM 1](https://www.scrum.org/certificates/616762)
-- [Salesforce](https://trailblazer.me/id/cbernardes)
+- [Salesforce](https://trailblazer.me/id/cbernardes) (en cours)
 
 ## Mots clés
 

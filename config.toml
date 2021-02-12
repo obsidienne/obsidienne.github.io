@@ -1,7 +1,6 @@
-baseURL = "https://obsidienne.github.io/"
+baseURL = "https://www.bernardes.eu/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
-title = "Blog de Claudio"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
