@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>how-to on Blog de Claudio</title>
-    <link>https://obsidienne.github.io/categories/how-to/</link>
-    <description>Recent content in how-to on Blog de Claudio</description>
+    <title>how-to on </title>
+    <link>https://www.bernardes.eu/categories/how-to/</link>
+    <description>Recent content in how-to on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://obsidienne.github.io/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Création d&#39;un CV via HUGO</title>
-      <link>https://obsidienne.github.io/post/resume-github-hugo/</link>
+      <link>https://www.bernardes.eu/post/resume-github-hugo/</link>
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0100</pubDate>
       
-      <guid>https://obsidienne.github.io/post/resume-github-hugo/</guid>
+      <guid>https://www.bernardes.eu/post/resume-github-hugo/</guid>
       <description>Création d&amp;rsquo;un CV via Hugo Dans l&amp;rsquo;ensemble des outils de gestion de code source décentralisé, Git est celui qui domine.</description>
     </item>
     

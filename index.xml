@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Blog de Claudio</title>
-    <link>https://obsidienne.github.io/</link>
-    <description>Recent content in Home on Blog de Claudio</description>
+    <title></title>
+    <link>https://www.bernardes.eu/</link>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 04 Oct 2020 23:29:08 +0100</lastBuildDate><atom:link href="https://obsidienne.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Création d&#39;un CV via HUGO</title>
-      <link>https://obsidienne.github.io/post/resume-github-hugo/</link>
+      <link>https://www.bernardes.eu/post/resume-github-hugo/</link>
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0100</pubDate>
       
-      <guid>https://obsidienne.github.io/post/resume-github-hugo/</guid>
+      <guid>https://www.bernardes.eu/post/resume-github-hugo/</guid>
       <description>Création d&amp;rsquo;un CV via Hugo Dans l&amp;rsquo;ensemble des outils de gestion de code source décentralisé, Git est celui qui domine.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://obsidienne.github.io/about/</link>
+      <link>https://www.bernardes.eu/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://obsidienne.github.io/about/</guid>
-      <description>About 14 ans d&amp;rsquo;expérience dans le domaine du Private Equity, j&amp;rsquo;ai piloté l&amp;rsquo;intégration d&amp;rsquo;outils business structurants (Salesforce, Unit4 Fi, Evolan Report, DocuSign) mais aussi d&amp;rsquo;urbanisation (Talend, Docuware, o365).</description>
+      <guid>https://www.bernardes.eu/about/</guid>
+      <description>À propos 14 ans d&amp;rsquo;expérience dans le domaine du Private Equity, j&amp;rsquo;ai piloté l&amp;rsquo;intégration d&amp;rsquo;outils business structurants (Salesforce, Unit4 Fi, Evolan Report, DocuSign) mais aussi d&amp;rsquo;urbanisation (Talend, Docuware, o365).</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://obsidienne.github.io/links/</link>
+      <link>https://www.bernardes.eu/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://obsidienne.github.io/links/</guid>
+      <guid>https://www.bernardes.eu/links/</guid>
       <description>ML  https://github.com/firmai/industry-machine-learning https://www.youtube.com/watch?v=xmUfTl33-fU&amp;amp;app=desktop  Python - Elixir  https://elixirforum.com/t/best-way-to-get-elixir-to-work-with-python/19400/8 https://github.</description>
     </item>
     
