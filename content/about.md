@@ -19,7 +19,8 @@ J'ai une vaste expérience dans la gestion de projets informatiques et stratégi
 ## Buzz word
 
 - **Programming** Python, C#, Elixir
-- **Web** HTML, Javascript, CSS/SASS/Tailwindcss, Webpack
-- **Frameworks** Phoenix, Flask, RoR, RASA, CamundaBPM
+- **Apps** Salesforce, DocuSign, Unit4 Fi, Docuware, Kyriba
+- **Web** HTML, Javascript, CSS/SASS/Tailwind CSS, Webpack
+- **Frameworks** Phoenix, Flask, RoR, RASA, Camunda BPM
 - **Tools** Git, Docker, GitHub Actions, Jira, VS Code
-- **Misc** Excel, SQL
+- **Misc** Excel, SQL, Talend Data Integration
