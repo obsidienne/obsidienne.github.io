@@ -1,4 +1,4 @@
-# About
+# À propos
 
 14 ans d'expérience dans le domaine du Private Equity, j'ai piloté l'intégration d'outils business structurants (Salesforce, Unit4 Fi, Evolan Report, DocuSign) mais aussi d'urbanisation (Talend, Docuware, o365). 
 J'ai une grande connaissance métier dans les domaines du Private Equity, des déclaratifs bancaires, des outils de CRM et des outils de reporting. 
@@ -16,11 +16,11 @@ J'ai une vaste expérience dans la gestion de projets informatiques et stratégi
 - [PSM 1](https://www.scrum.org/certificates/616762)
 - [Salesforce](https://trailblazer.me/id/cbernardes)
 
-## Buzz word
+## Mots clés
 
-- **Programming** Python, C#, Elixir
-- **Apps** Salesforce, DocuSign, Unit4 Fi, Docuware, Kyriba
+- **Programmation** Python, C#, Elixir
+- **Applications** Salesforce, DocuSign, Unit4 Fi, Docuware, Kyriba
 - **Web** HTML, Javascript, CSS/SASS/Tailwind CSS, Webpack
-- **Frameworks** Phoenix, Flask, RoR, RASA, Camunda BPM
-- **Tools** Git, Docker, GitHub Actions, Jira, VS Code
-- **Misc** Excel, SQL, Talend Data Integration
+- **Cadriciels** Phoenix, Flask, RoR, RASA, Camunda BPM
+- **Outils** Git, Docker, GitHub Actions, Jira, VS Code
+- **Divers** Excel, SQL, Talend Data Integration

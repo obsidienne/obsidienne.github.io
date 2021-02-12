@@ -22,7 +22,7 @@ pygmentsCodefencesGuessSyntax = true
 title = "Claudio"
 author = "Claudio Bernardes"
 #copyright = "2020-2021"
-description = "IT, Finance et OpenSource"
+description = "IT, Finance & OpenSource"
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
@@ -83,8 +83,8 @@ url = "mailto:bernardes.claudio@gmail.com"
 [menu]
 
   [[menu.main]]
-  name = "Home"
-  identifier = "home"
+  name = "Accueil"
+  identifier = "accueil"
   weight = 100
   url = "/"
 
@@ -95,8 +95,8 @@ url = "mailto:bernardes.claudio@gmail.com"
   url = "/post/"
 
   [[menu.main]]
-  name = "About"
+  name = "À propos"
   weight = 300
-  identifier = "about"
+  identifier = "à propos"
   url = "/about/"
 
