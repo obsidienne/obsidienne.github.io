@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>how-to Github CI/CD on </title>
+    <link>https://www.bernardes.eu/categories/how-to-github-ci/cd/</link>
+    <description>Recent content in how-to Github CI/CD on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language><atom:link href="https://www.bernardes.eu/categories/how-to-github-ci/cd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Création d&#39;un CV via HUGO</title>
+      <link>https://www.bernardes.eu/post/resume-github-hugo/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/post/resume-github-hugo/</guid>
+      <description>Création d&amp;rsquo;un CV via Hugo Dans l&amp;rsquo;ensemble des outils de gestion de code source décentralisé, Git est celui qui domine.</description>
+    </item>
+    
+  </channel>
+</rss>
