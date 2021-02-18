@@ -8,12 +8,17 @@
   </url>
   
   <url>
+    <loc>https://www.bernardes.eu/categories/</loc>
+    <lastmod>2020-10-07T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.bernardes.eu/post/resume-github-hugo/</loc>
     <lastmod>2020-10-07T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.bernardes.eu/tags/github-actions/</loc>
+    <loc>https://www.bernardes.eu/categories/how-to/</loc>
     <lastmod>2020-10-07T00:00:00+01:00</lastmod>
   </url>
   
@@ -43,11 +48,7 @@
   </url>
   
   <url>
-    <loc>https://www.bernardes.eu/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.bernardes.eu/categories/how-to-github-ci/cd/</loc>
+    <loc>https://www.bernardes.eu/tags/ci/cd/</loc>
   </url>
   
 </urlset>
