@@ -42,4 +42,4 @@ Aujourd'hui j'ai appris que l'on pouvait modifier le niveau de log d'un job Tale
 
 2. spécificier dans chaque job les paramètres avancés
 
-![](https://res.cloudinary.com/dswia5bj3/image/upload/s--kvcl534w--/f_auto,fl_force_strip.immutable_cache/v1613735649/CV_Hugo_GitHub/talend_job_parameters.jpg)
+![](https://res.cloudinary.com/dswia5bj3/image/upload/s--s6Upzuep--/q_auto/v1613735649/CV_Hugo_GitHub/talend_job_parameters.jpg)

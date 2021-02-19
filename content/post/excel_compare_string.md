@@ -12,4 +12,4 @@ Aujourd'hui j'ai appris que l'on pouvait utiliser la macro Excel [EXACT](https:/
 =EXACT(B7;MAJUSCULE(B7))
 ```
 
-![](https://res.cloudinary.com/dswia5bj3/image/upload/s--QUr4EeEL--/f_auto,fl_force_strip.immutable_cache/v1613734415/CV_Hugo_GitHub/excel-uppercase.png)
+![](https://res.cloudinary.com/dswia5bj3/image/upload/s--WUYQgBnf--/q_auto/v1613734415/CV_Hugo_GitHub/excel-uppercase.png)
