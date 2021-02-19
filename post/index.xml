@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Configuration Log4j2 Talend</title>
+      <link>https://www.bernardes.eu/post/log4j-talend/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/post/log4j-talend/</guid>
+      <description>Aujourd&amp;rsquo;hui j&amp;rsquo;ai appris que l&amp;rsquo;on pouvait modifier le niveau de log d&amp;rsquo;un job Talend</description>
+    </item>
+    
+    <item>
       <title>Création d&#39;un CV via HUGO</title>
       <link>https://www.bernardes.eu/post/resume-github-hugo/</link>
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0100</pubDate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talend on </title>
+    <link>https://www.bernardes.eu/tags/talend/</link>
+    <description>Recent content in Talend on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 19 Oct 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/tags/talend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuration Log4j2 Talend</title>
+      <link>https://www.bernardes.eu/post/log4j-talend/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/post/log4j-talend/</guid>
+      <description>Aujourd&amp;rsquo;hui j&amp;rsquo;ai appris que l&amp;rsquo;on pouvait modifier le niveau de log d&amp;rsquo;un job Talend</description>
+    </item>
+    
+  </channel>
+</rss>

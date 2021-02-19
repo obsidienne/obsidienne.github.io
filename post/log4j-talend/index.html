@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr" data-theme=""><head>
-    <title> Claudio Bernardes | TIL </title>
+    <title> Claudio Bernardes | Configuration Log4j2 Talend </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.75.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,10 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
 
-    <link rel="canonical" href="/categories/til/">
+    <link rel="canonical" href="/post/log4j-talend/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="/categories/til/index.xml" title="" />
     
     
     
@@ -53,8 +52,8 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.bernardes.eu/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="TIL"/>
-<meta name="twitter:description" content="IT, Finance &amp; OpenSource"/>
+<meta name="twitter:title" content="Configuration Log4j2 Talend"/>
+<meta name="twitter:description" content="Aujourd&rsquo;hui j&rsquo;ai appris que l&rsquo;on pouvait modifier le niveau de log d&rsquo;un job Talend"/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -145,35 +144,71 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive  animated fadeInDown ">
-        <ul class="list-with-title">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
             
-                <div class="listing-title">2021</div>
+            <div class="post-title">
+                <h3>Configuration Log4j2 Talend</h3>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/check-uppercase-excel/" title="Confirmer la présence de cellule en minuscule">Confirmer la présence de cellule en minuscule</a>
-                                <div class="post-time"><span class="date"> Feb 19 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Mon, Oct 19, 2020 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">Une minute de lecture</span>
+                    </div>
                 
-            
-                <div class="listing-title">2020</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/log4j-talend/" title="Configuration Log4j2 Talend">Configuration Log4j2 Talend</a>
-                                <div class="post-time"><span class="date"> Oct 19 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+            </div>
+
+            <p>Aujourd&rsquo;hui j&rsquo;ai appris que l&rsquo;on pouvait modifier le niveau de log d&rsquo;un job Talend</p>
+<ol>
+<li>Configurer Log4J dans le menu <em>Fichier\Modifier</em> les propriétés du Projet</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
+<span class="nt">&lt;Configuration&gt;</span>
+    <span class="nt">&lt;Appenders&gt;</span>  
+        <span class="nt">&lt;Console</span> <span class="na">name=</span><span class="s">&#34;Console&#34;</span> <span class="na">target=</span><span class="s">&#34;SYSTEM_OUT&#34;</span><span class="nt">&gt;</span>  
+            <span class="nt">&lt;PatternLayout</span> <span class="na">pattern=</span><span class="s">&#34;[%-5level] %d{HH:mm:ss} %logger{36}- %msg%n&#34;</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;/Console&gt;</span>
+
+        <span class="nt">&lt;RollingFile</span> <span class="na">name=</span><span class="s">&#34;File&#34;</span>
+                     <span class="na">fileName=</span><span class="s">&#34;${sys:log_path}/${sys:jobname}.log&#34;</span>
+                     <span class="na">filePattern=</span><span class="s">&#34;${sys:log_path}/${sys:jobname}.%d{yyyy-MM-dd}.%i.log&#34;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;PatternLayout</span> <span class="nt">&gt;</span>
+                <span class="nt">&lt;Pattern&gt;</span>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n<span class="nt">&lt;/Pattern&gt;</span>
+            <span class="nt">&lt;/PatternLayout&gt;</span>
+            <span class="nt">&lt;Policies&gt;</span>
+                <span class="nt">&lt;OnStartupTriggeringPolicy</span> <span class="nt">/&gt;</span>
+                <span class="nt">&lt;SizeBasedTriggeringPolicy</span> <span class="na">size=</span><span class="s">&#34;10 MB&#34;</span> <span class="nt">/&gt;</span>
+                <span class="nt">&lt;TimeBasedTriggeringPolicy</span> <span class="na">interval=</span><span class="s">&#34;1&#34;</span><span class="nt">/&gt;</span>
+            <span class="nt">&lt;/Policies&gt;</span>
+        <span class="nt">&lt;/RollingFile&gt;</span>
+    <span class="nt">&lt;/Appenders&gt;</span>  
+ 
+    <span class="nt">&lt;Loggers&gt;</span>  
+        <span class="nt">&lt;Root</span> <span class="na">level=</span><span class="s">&#34;INFO&#34;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;AppenderRef</span> <span class="na">ref=</span><span class="s">&#34;Console&#34;</span> <span class="nt">/&gt;</span>
+            <span class="nt">&lt;AppenderRef</span> <span class="na">ref=</span><span class="s">&#34;File&#34;</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;/Root&gt;</span>  
+    <span class="nt">&lt;/Loggers&gt;</span>  
+<span class="nt">&lt;/Configuration&gt;</span>
+</code></pre></div><ol start="2">
+<li>spécificier dans chaque job les paramètres avancés</li>
+</ol>
+<p><img src="https://res.cloudinary.com/dswia5bj3/image/upload/s--kvcl534w--/f_auto,fl_force_strip.immutable_cache/v1613735649/CV_Hugo_GitHub/talend_job_parameters.jpg" alt=""></p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                <span class="separator"><a class="category" href="/categories/til/">TIL</a></span>
+
+                <span class="separator"><a class="tag" href="/tags/talend/">Talend</a></span>
+
+            </div>
+        </div>
+
+        
     </div>
+
 
         </div>
     </div>
