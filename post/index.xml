@@ -6,7 +6,16 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Confirmer la présence de cellule en minuscule</title>
+      <link>https://www.bernardes.eu/post/check-uppercase-excel/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/post/check-uppercase-excel/</guid>
+      <description>Aujourd&amp;rsquo;hui j&amp;rsquo;ai appris que l&amp;rsquo;on pouvait utiliser la macro Excel EXACT et MAJUSCULE pour savoir si une colonne contient des valeurs en miniscule</description>
+    </item>
+    
     <item>
       <title>Création d&#39;un CV via HUGO</title>
       <link>https://www.bernardes.eu/post/resume-github-hugo/</link>

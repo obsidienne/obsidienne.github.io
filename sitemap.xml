@@ -4,12 +4,37 @@
   
   <url>
     <loc>https://www.bernardes.eu/</loc>
-    <lastmod>2020-10-07T00:00:00+01:00</lastmod>
+    <lastmod>2021-02-19T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.bernardes.eu/categories/</loc>
-    <lastmod>2020-10-07T00:00:00+01:00</lastmod>
+    <lastmod>2021-02-19T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bernardes.eu/post/check-uppercase-excel/</loc>
+    <lastmod>2021-02-19T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bernardes.eu/tags/excel/</loc>
+    <lastmod>2021-02-19T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bernardes.eu/post/</loc>
+    <lastmod>2021-02-19T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bernardes.eu/tags/</loc>
+    <lastmod>2021-02-19T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bernardes.eu/categories/til/</loc>
+    <lastmod>2021-02-19T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -24,16 +49,6 @@
   
   <url>
     <loc>https://www.bernardes.eu/tags/hugo/</loc>
-    <lastmod>2020-10-07T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.bernardes.eu/post/</loc>
-    <lastmod>2020-10-07T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.bernardes.eu/tags/</loc>
     <lastmod>2020-10-07T00:00:00+01:00</lastmod>
   </url>
   

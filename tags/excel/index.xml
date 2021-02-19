@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel on </title>
+    <link>https://www.bernardes.eu/tags/excel/</link>
+    <description>Recent content in Excel on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Confirmer la présence de cellule en minuscule</title>
+      <link>https://www.bernardes.eu/post/check-uppercase-excel/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/post/check-uppercase-excel/</guid>
+      <description>Aujourd&amp;rsquo;hui j&amp;rsquo;ai appris que l&amp;rsquo;on pouvait utiliser la macro Excel EXACT et MAJUSCULE pour savoir si une colonne contient des valeurs en miniscule</description>
+    </item>
+    
+  </channel>
+</rss>
