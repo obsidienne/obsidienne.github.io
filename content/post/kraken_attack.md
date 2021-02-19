@@ -6,5 +6,7 @@ tags: [Game]
 --- 
 
 J'ai découvert un super jeu de plateau, coopératif et accessible au jeune enfant
+Le but du jeu, protéger le bateau contre un immense kraken en s'organisant à plusieurs.
 
 ![](https://res.cloudinary.com/dswia5bj3/image/upload/s--ai-4ApN0--/v1613756366/CV_Hugo_GitHub/kraken_attack.jpg)
+
