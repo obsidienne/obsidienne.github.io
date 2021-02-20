@@ -6,7 +6,16 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Commit Message</title>
+      <link>https://www.bernardes.eu/post/git-commit-msg/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/post/git-commit-msg/</guid>
+      <description>En lisant le code source de plusieurs projets, je me suis rendu compte qu&amp;rsquo;ils se basaient tous sur ce blog</description>
+    </item>
+    
     <item>
       <title>Confirmer la présence de cellule en minuscule</title>
       <link>https://www.bernardes.eu/post/check-uppercase-excel/</link>

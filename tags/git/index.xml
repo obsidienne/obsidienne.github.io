@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on </title>
+    <link>https://www.bernardes.eu/tags/git/</link>
+    <description>Recent content in Git on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Commit Message</title>
+      <link>https://www.bernardes.eu/post/git-commit-msg/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/post/git-commit-msg/</guid>
+      <description>En lisant le code source de plusieurs projets, je me suis rendu compte qu&amp;rsquo;ils se basaient tous sur ce blog</description>
+    </item>
+    
+  </channel>
+</rss>
