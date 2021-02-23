@@ -4,12 +4,37 @@
   
   <url>
     <loc>https://www.bernardes.eu/</loc>
-    <lastmod>2021-02-20T00:00:00+01:00</lastmod>
+    <lastmod>2021-02-23T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.bernardes.eu/categories/</loc>
-    <lastmod>2021-02-20T00:00:00+01:00</lastmod>
+    <lastmod>2021-02-23T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bernardes.eu/tags/coding/</loc>
+    <lastmod>2021-02-23T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bernardes.eu/post/ohmyzsh-asdf/</loc>
+    <lastmod>2021-02-23T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bernardes.eu/post/</loc>
+    <lastmod>2021-02-23T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bernardes.eu/tags/</loc>
+    <lastmod>2021-02-23T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bernardes.eu/categories/til/</loc>
+    <lastmod>2021-02-23T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -19,21 +44,6 @@
   
   <url>
     <loc>https://www.bernardes.eu/post/git-commit-msg/</loc>
-    <lastmod>2021-02-20T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.bernardes.eu/post/</loc>
-    <lastmod>2021-02-20T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.bernardes.eu/tags/</loc>
-    <lastmod>2021-02-20T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.bernardes.eu/categories/til/</loc>
     <lastmod>2021-02-20T00:00:00+01:00</lastmod>
   </url>
   

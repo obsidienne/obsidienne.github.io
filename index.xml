@@ -6,7 +6,16 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oh My Zsh and ASDF</title>
+      <link>https://www.bernardes.eu/post/ohmyzsh-asdf/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/post/ohmyzsh-asdf/</guid>
+      <description>Après avoir galéré longuement pour installer les bonnes versions des langages de développement sur ma machine.</description>
+    </item>
+    
     <item>
       <title>Git Commit Message</title>
       <link>https://www.bernardes.eu/post/git-commit-msg/</link>

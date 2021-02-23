@@ -6,7 +6,16 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding</title>
+      <link>https://www.bernardes.eu/tags/coding/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/tags/coding/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Git</title>
       <link>https://www.bernardes.eu/tags/git/</link>
