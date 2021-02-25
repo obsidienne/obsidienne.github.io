@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr" data-theme=""><head>
-    <title> Claudio Bernardes | Categories </title>
+    <title> Claudio Bernardes | Simplier les tests avec une fonction forget </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.75.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,10 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
 
-    <link rel="canonical" href="/categories/">
+    <link rel="canonical" href="/post/ecto-forget/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="" />
     
     
     
@@ -53,8 +52,8 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.bernardes.eu/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="IT, Finance &amp; OpenSource"/>
+<meta name="twitter:title" content="Simplier les tests avec une fonction forget"/>
+<meta name="twitter:description" content="Lorsque l&rsquo;on utilise le scaffold de phoenix, on obtient ce genre de test."/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -145,35 +144,67 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive  animated fadeInDown ">
-        <ul class="list-with-title">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
             
-                <div class="listing-title">2021</div>
+            <div class="post-title">
+                <h3>Simplier les tests avec une fonction forget</h3>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/categories/til/" title="TIL">TIL</a>
-                                <div class="post-time"><span class="date"> Feb 25 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Thu, Feb 25, 2021 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">Une minute de lecture</span>
+                    </div>
                 
-            
-                <div class="listing-title">2020</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/categories/how-to/" title="HOW-TO">HOW-TO</a>
-                                <div class="post-time"><span class="date"> Oct 7 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+            </div>
+
+            <p>Lorsque l&rsquo;on utilise le scaffold de phoenix, on obtient ce genre de test. Ce sont des tests simples et efficaces.</p>
+<div class="highlight"><pre class="chroma"><code class="language-elixir" data-lang="elixir"><span class="n">test</span> <span class="s2">&#34;get_comment!/1 returns the comment with given id&#34;</span> <span class="n">do</span>
+  <span class="n">comment</span> <span class="o">=</span> <span class="n">comment_fixture</span><span class="p">()</span>
+  <span class="n">assert</span> <span class="nc">Reactions</span><span class="o">.</span><span class="n">get_comment!</span><span class="p">(</span><span class="n">comment</span><span class="o">.</span><span class="n">id</span><span class="p">)</span> <span class="o">==</span> <span class="n">comment</span>
+<span class="n">end</span>
+</code></pre></div><p>Le souci, c&rsquo;est que ça ne va pas fonctionner si vous faites un preload du user dans le context ou si vous utilisez une factory tel que ex_machina</p>
+<p>Dans ce genre de cas, il faut créer un mécanisme pour oublier les relations.</p>
+<div class="highlight"><pre class="chroma"><code class="language-elixir" data-lang="elixir"><span class="n">defmodule</span> <span class="nc">Demp.Repo</span> <span class="n">do</span>
+  <span class="n">use</span> <span class="nc">Ecto.Repo</span><span class="p">,</span>
+    <span class="ss">otp_app</span><span class="p">:</span> <span class="ss">:demo</span><span class="p">,</span>
+    <span class="ss">adapter</span><span class="p">:</span> <span class="nc">Ecto.Adapters.Postgres</span>
+
+  <span class="n">def</span> <span class="n">forget</span><span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">cardinality</span> <span class="p">\\</span> <span class="ss">:one</span><span class="p">)</span>
+
+  <span class="n">def</span> <span class="n">forget</span><span class="p">(</span><span class="n">struct</span><span class="p">,</span> <span class="n">fields</span><span class="p">,</span> <span class="n">cardinality</span><span class="p">)</span> <span class="n">when</span> <span class="n">is_list</span><span class="p">(</span><span class="n">fields</span><span class="p">)</span>
+      <span class="n">fields</span>
+      <span class="o">|&gt;</span> <span class="nc">Enum</span><span class="o">.</span><span class="n">reduce</span><span class="p">(</span><span class="n">struct</span><span class="p">,</span> <span class="n">fn</span> <span class="n">field</span><span class="p">,</span> <span class="n">acc</span> <span class="o">-&gt;</span>
+        <span class="n">forget</span><span class="p">(</span><span class="n">acc</span><span class="p">,</span> <span class="n">field</span><span class="p">,</span> <span class="n">cardinality</span><span class="p">)</span>
+      <span class="n">end</span><span class="p">)</span>
+
+  <span class="n">def</span> <span class="n">forget</span><span class="p">(</span><span class="n">struct</span><span class="p">,</span> <span class="n">field</span><span class="p">,</span> <span class="n">cardinality</span><span class="p">)</span> <span class="n">do</span>
+    <span class="p">%{</span>
+      <span class="n">struct</span>
+      <span class="o">|</span> <span class="n">field</span> <span class="o">=&gt;</span> <span class="p">%</span><span class="nc">Ecto.Association.NotLoaded</span><span class="p">{</span>
+          <span class="ss">__field__</span><span class="p">:</span> <span class="n">field</span><span class="p">,</span>
+          <span class="ss">__owner__</span><span class="p">:</span> <span class="n">struct</span><span class="o">.</span><span class="n">__struct__</span><span class="p">,</span>
+          <span class="ss">__cardinality__</span><span class="p">:</span> <span class="n">cardinality</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="n">end</span>
+<span class="n">end</span>
+</code></pre></div><p><em>Dupliquer de ce <a href="https://github.com/thoughtbot/ex_machina/issues/295#issuecomment-433264227">commentaire github</a></em></p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                <span class="separator"><a class="category" href="/categories/til/">TIL</a></span>
+
+                <span class="separator"><a class="tag" href="/tags/coding/">Coding</a><a class="tag" href="/tags/elixir/">Elixir</a></span>
+
+            </div>
+        </div>
+
+        
     </div>
+
 
         </div>
     </div>

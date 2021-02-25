@@ -6,7 +6,16 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simplier les tests avec une fonction forget</title>
+      <link>https://www.bernardes.eu/post/ecto-forget/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/post/ecto-forget/</guid>
+      <description>Lorsque l&amp;rsquo;on utilise le scaffold de phoenix, on obtient ce genre de test.</description>
+    </item>
+    
     <item>
       <title>Oh My Zsh and ASDF</title>
       <link>https://www.bernardes.eu/post/ohmyzsh-asdf/</link>
