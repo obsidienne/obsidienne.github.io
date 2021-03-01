@@ -6,7 +6,16 @@
     <description>Recent content in TIL on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rectangle: Déplace et Dimensionne les fenêtres MacOS</title>
+      <link>https://www.bernardes.eu/post/rectangle/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/post/rectangle/</guid>
+      <description>Je travail de plus en plus régulièrement sans souris, et il me manquait un élément simple pour avoir les quelques raccourcis clavier nécessaires pour mettre en place mon environnement quand je code.</description>
+    </item>
+    
     <item>
       <title>Simplier les tests avec une fonction forget</title>
       <link>https://www.bernardes.eu/post/ecto-forget/</link>
