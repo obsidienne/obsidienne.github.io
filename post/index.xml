@@ -6,7 +6,17 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La stack PETAL</title>
+      <link>https://www.bernardes.eu/post/petal-stack/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/post/petal-stack/</guid>
+      <description>PETAL : Un nouvel acronyme regroupant
+ P Phoenix E Elixir T TailwindCSS A Alpine.</description>
+    </item>
+    
     <item>
       <title>Rectangle: Déplace et Dimensionne les fenêtres MacOS</title>
       <link>https://www.bernardes.eu/post/rectangle/</link>
