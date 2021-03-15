@@ -8,7 +8,7 @@ categories: [TIL]
 
 En lisant le code source de plusieurs projets, je me suis rendu compte qu'ils se basaient tous sur ce [blog](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
-C'est un très bonne base pour avoir un historique Git lisible.
+C'est une très bonne base pour avoir un historique Git lisible.
 
 ```
 Capitalized, short (50 chars or less) summary
