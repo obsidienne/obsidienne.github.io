@@ -6,7 +6,16 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://www.bernardes.eu/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Container Queries</title>
+      <link>https://www.bernardes.eu/post/container-queries/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.bernardes.eu/post/container-queries/</guid>
+      <description>Le CSS a énormément évolué sur les dernières années, et l&amp;rsquo;ensemble des navigateurs s&amp;rsquo;alignent pour fournir très rapidement les avancées majeures.</description>
+    </item>
+    
     <item>
       <title>Le 580000</title>
       <link>https://www.bernardes.eu/post/580000/</link>
